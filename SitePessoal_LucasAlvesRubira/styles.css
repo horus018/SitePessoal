@@ -1,0 +1,141 @@
+    @import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+    body {
+        background-color: rgba(218, 191, 191, 0.733);
+        text-decoration: none;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    p,
+    li,
+    a {
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: rgba(0, 0, 0, 0.733);
+    }
+    
+    .container {
+        background-color: black;
+        margin: 0px 0px 0px 0px;
+        max-width: 5000px;
+        padding: 30px;
+        font-family: 'Glory', sans-serif !important;
+        font-size: 70%;
+        height: 240px;
+    }
+    
+    abbr {
+        border-bottom: none !important;
+        cursor: default !important;
+        text-decoration: none !important;
+        cursor: pointer !important;
+    }
+    
+    .container>h1,
+    h3 {
+        color: azure;
+        padding-bottom: 0px;
+    }
+    
+    .container>h1 {
+        font-size: 60px;
+    }
+    
+    .container>h3 {
+        font-size: 20px;
+    }
+    
+    .colorLine {
+        margin-top: 0px;
+        padding: 3px!important;
+        background: linear-gradient(45deg, #EF3425, #EF54D2);
+    }
+    
+    .link {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding: 1.2em;
+        text-decoration: none;
+        background: linear-gradient(45deg, #091edd, #83f008)
+    }
+    
+    .link a {
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    
+    .link a:first-child:hover {
+        color: #EF3425;
+        font-size: 1.2rem;
+    }
+    
+    .link a:nth-child(1):hover {
+        color: #53e718;
+        font-size: 1.2rem;
+    }
+    
+    .link a:nth-child(2):hover {
+        color: #1fe6bb;
+        font-size: 1.2rem;
+    }
+    
+    .link a:nth-child(3):hover {
+        color: #e7eb11;
+        font-size: 1.2rem;
+    }
+    
+    .link a:nth-child(4):hover {
+        color: #a7e7a7;
+        font-size: 1.2rem;
+    }
+    
+    .link a:nth-child(5):hover {
+        color: #f57104;
+        font-size: 1.2rem;
+    }
+    
+    .link a:nth-child(6):hover {
+        color: #1404f5;
+        font-size: 1.2rem;
+    }
+    
+    .link a:last-child:hover {
+        color: #EF54D2;
+        font-size: 1.2rem;
+    }
+    
+    .foto img:hover {
+        cursor: pointer;
+    }
+    
+    .foto img {
+        margin: 10px;
+        float: right;
+        margin-top: 0px;
+    }
+    
+    .header {
+        background-image: url(/dev.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 350px;
+    }
+    
+    .discovery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .discovery p {
+        margin-top: 150px;
+        font-size: 3em;
+        padding-left: 10px;
+        color: #ffffff;
+        outline: 3px solid rgba(0, 0, 0, 0.733);
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
+        background: linear-gradient(45deg, rgba(0, 0, 0, 0.733), #EF54D2);
+    }
